@@ -1,4 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>ccode</title>
+</head>
 <body>
 <p>input serial number</p>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
