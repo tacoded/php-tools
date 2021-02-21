@@ -22,9 +22,9 @@ $c5='EG-';$sha5=sha1($c5.$SERIAL);
 
 if($_SERVER["REQUEST_METHOD"]=="POST") {
 echo $SERIAL.'<br><br>';
-echo'proginv system ccode CCODE-'.$c2.$sha1.'<br><br>';
-echo'proginv system ccode CCODE-'.$c3.$sha2.'<br><br>';
-echo'proginv system ccode CCODE-'.$c4.$sha3.'<br><br>';
+echo'proginv system ccode CCODE-'.$c1.$sha1.'<br><br>';
+echo'proginv system ccode CCODE-'.$c2.$sha2.'<br><br>';
+echo'proginv system ccode CCODE-'.$c3.$sha3.'<br><br>';
 echo'proginv system ccode CCODE-'.$c4.$sha4.'<br><br>';
 echo'proginv system ccode CCODE-'.$c5.$sha5.'<br><br>'; } ?>
 
