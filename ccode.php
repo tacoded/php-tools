@@ -6,8 +6,8 @@
 <body>
 <p>input serial number</p>
 <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-<input type="text" name="serial" pattern="[A-Za-z0-9]+" required>
-<input type="submit" VALUE="execute">
+<p><input type="text" name="serial" pattern="[A-Za-z0-9]+" required>
+<input type="submit" VALUE="execute"></p>
 </form>
 
 <?php
